@@ -3,6 +3,11 @@ body {
 	margin:0;
 }
 
+img {
+    width: 200px;
+    height: auto;
+}
+
 .form-attributes input[type="text"],.form-attributes input[type="password"],
 .form-attributes input[type="email"],.form-attributes input[type="url"],
 .form-attributes input[type="file"],.form-attributes select {
@@ -53,3 +58,4 @@ body {
 	color: red;
     padding: 10px 0px;
 }
+

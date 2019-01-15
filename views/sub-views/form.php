@@ -1,10 +1,9 @@
  <!--Form -->
-
 <div class="container">
 	<div class="row">
 		<div class="col-md-12">
 			<div class="form">
-				<form method="post" action="process/update_user.php" enctype="multipart/form-data">
+				<form method="post" action="update_user.php" enctype="multipart/form-data">
 					<div class="form-attributes">
 						<p>First Name:</p>
 						<input type="text" name="first_name" value="" placeholder="" />

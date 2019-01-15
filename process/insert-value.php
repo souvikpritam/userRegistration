@@ -53,7 +53,7 @@ if( isset($_POST['submit']) && $_POST['submit'] == 'Save' ){
 		$error_msg['checkbox'] = "Checkbox is Required";
 	}
 
-	$img = basename($_FILES['img']['name']);
+	$img = $_FILES['img']['name'];
 	$img_tmp = $_FILES['img']['tmp_name'];
 	$img_type = $_FILES['img']['type'];
 	$img_size = $_FILES['img']['size'];
@@ -77,7 +77,7 @@ if( isset($_POST['submit']) && $_POST['submit'] == 'Save' ){
 	}
 
 	if(!empty($error_msg)){
-		header("Location: insert_user.php");
+		header("Location: index.php");
 		exit();
 	}
 

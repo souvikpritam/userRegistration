@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
+    <meta charset="utf-8">
     <title>Form</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
@@ -18,7 +18,7 @@
 </head>
 <body>
 
-<?php include_once('views/sub-views/form.php');?>
+<?php include_once('views/sub-views/form.php'); ?>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <!--  Flatpickr  -->
@@ -27,4 +27,6 @@
 
 </body>
 </html>
+
+
 
